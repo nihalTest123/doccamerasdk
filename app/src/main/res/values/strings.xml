@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DummyAndroidSDK</string>
+    <string name="title_activity_pan_screen">PanScreen</string>
+</resources>
