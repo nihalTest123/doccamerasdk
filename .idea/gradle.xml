@@ -9,6 +9,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/B2CCustomCamera" />
+            <option value="$PROJECT_DIR$/alertPopUpLibrary" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>

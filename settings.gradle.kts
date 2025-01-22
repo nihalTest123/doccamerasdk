@@ -32,6 +32,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "DummyAndroidSDK"
 include(":app")
-//include(":alertPopUpLibrary")
-//include(":B2CCustomCamera")
+include(":alertPopUpLibrary")
+include(":B2CCustomCamera")
 
