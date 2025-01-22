@@ -67,6 +67,5 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation  (libs.doccamerasdk)
-    implementation(project(":alertPopUpLibrary"))
     implementation(project(":B2CCustomCamera"))
 }
