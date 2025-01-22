@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.jetbrains.kotlin.android)
+    alias('maven-publish')
 }
 
 android {
@@ -77,9 +78,18 @@ dependencies {
     implementation(libs.androidx.camera.lifecycle)
     implementation(libs.coil.compose)
 
-
-
-
-
-
 }
+
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("release") {
+                from(components["release"])
+                groupId = "com.github.NihalTest123"
+                artifactId = "B2CCustomCamera"
+                version = "1.0"
+            }
+        }
+    }
+}
+

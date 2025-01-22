@@ -9,6 +9,7 @@ pluginManagement {
         }
         mavenCentral()
         gradlePluginPortal()
+//        maven { url = uri("https://www.jitpack.io" ) }
     }
 }
 dependencyResolutionManagement {
@@ -16,11 +17,21 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven {
+            url= uri("https://www.jitpack.io")
+            credentials {
+                username = "NihalTest123"
+                password = "NihalHuMai"
+            }
+        }
     }
 }
 
+
+
+
 rootProject.name = "DummyAndroidSDK"
 include(":app")
-include(":alertPopUpLibrary")
-include(":B2CCustomCamera")
+//include(":alertPopUpLibrary")
+//include(":B2CCustomCamera")
 
