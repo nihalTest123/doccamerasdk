@@ -86,8 +86,8 @@ afterEvaluate {
             create<MavenPublication>("release") {
                 from(components["release"])
                 groupId = "com.github.NihalTest123"
-                artifactId = "B2CCustomCamera"
-                version = "1.0"
+                artifactId = "DummyAndroidSDK"
+                version = "1.1"
             }
         }
     }
